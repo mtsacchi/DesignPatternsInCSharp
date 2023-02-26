@@ -36,11 +36,14 @@ namespace DesignPatternsInCSharp
 
                 switch (option)
                 {
-                    case 1: //"Creational Pattern: AbstractFactory"
+                    case 1: //"Creational Pattern: Abstract Factory"
                         DP01_Creational_AbstractFactory.Main.Execute();
                         break;
+                    case 2: //"Creational Pattern: Builder"
+                        DP02_Creational_Builder.Main.Execute();
+                        break;
                     default:
-                        Console.WriteLine($"Option is not implemented yet.\n");
+                        Console.WriteLine($"Option is invalid or not implemented yet.\n");
                         break;
                 }
                 Console.WriteLine("\nPress any key to continue.");
