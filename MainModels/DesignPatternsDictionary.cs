@@ -17,7 +17,9 @@ namespace Estudo_DesignPatterns.Other
                 "\t-> Intent: Provide an interface for creating families of related or dependent objects\n" +
                 "\t\twithout specifying their concrete classes.\n");
 
-            Patterns.Add(2, "Creational Pattern: Builder\n");
+            Patterns.Add(2, "Creational Pattern: Builder\n" +
+                "\t-> Intent: Separate the construction of a complex object from its representation.\n");
+
             Patterns.Add(3, "Creational Pattern: FactoryMethod\n");
             Patterns.Add(4, "Creational Pattern: Prototype\n");
             Patterns.Add(5, "Creational Pattern: Singleton\n");
