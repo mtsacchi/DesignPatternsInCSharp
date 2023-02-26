@@ -24,7 +24,10 @@ namespace Estudo_DesignPatterns.Other
                 "\t-> Intent: Define an interface for creating an object, but let subclasses decide which\n" +
                 "\t\tclass to instantiate. Factory Method lets a class defer instantiation to subclasses.\n");
 
-            Patterns.Add(4, "Creational Pattern: Prototype\n");
+            Patterns.Add(4, "Creational Pattern: Prototype\n" +
+                "\t-> Intent: Specify the kinds of objects to create using a prototypical instance,\n" +
+                "\t\tand create new objects by copying this prototype.\n");
+
             Patterns.Add(5, "Creational Pattern: Singleton\n");
 
             Patterns.Add(6, "Structural Pattern: Adapter\n");
