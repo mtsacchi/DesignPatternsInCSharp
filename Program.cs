@@ -42,6 +42,9 @@ namespace DesignPatternsInCSharp
                     case 2: //"Creational Pattern: Builder"
                         DP02_Creational_Builder.Main.Execute();
                         break;
+                    case 3: //"Creational Pattern: Factory Method"
+                        DP03_Creational_FactoryMethod.Main.Execute();
+                        break;
                     default:
                         Console.WriteLine($"Option is invalid or not implemented yet.\n");
                         break;
