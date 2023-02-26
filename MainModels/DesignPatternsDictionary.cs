@@ -13,14 +13,17 @@ namespace Estudo_DesignPatterns.Other
 
         public DesignPatternsDictionary()
         {
-            Patterns.Add(1, "Creational Pattern: AbstractFactory\n" +
+            Patterns.Add(1, "Creational Pattern: Abstract Factory\n" +
                 "\t-> Intent: Provide an interface for creating families of related or dependent objects\n" +
                 "\t\twithout specifying their concrete classes.\n");
 
             Patterns.Add(2, "Creational Pattern: Builder\n" +
                 "\t-> Intent: Separate the construction of a complex object from its representation.\n");
 
-            Patterns.Add(3, "Creational Pattern: FactoryMethod\n");
+            Patterns.Add(3, "Creational Pattern: Factory Method\n" +
+                "\t-> Intent: Define an interface for creating an object, but let subclasses decide which\n" +
+                "\t\tclass to instantiate. Factory Method lets a class defer instantiation to subclasses.\n");
+
             Patterns.Add(4, "Creational Pattern: Prototype\n");
             Patterns.Add(5, "Creational Pattern: Singleton\n");
 
@@ -32,7 +35,7 @@ namespace Estudo_DesignPatterns.Other
             Patterns.Add(11, "Structural Pattern: Flyweight\n");
             Patterns.Add(12, "Structural Pattern: Proxy\n");
 
-            Patterns.Add(13, "Behavioral Pattern: ChainOfResponsibility\n");
+            Patterns.Add(13, "Behavioral Pattern: Chain Of Responsibility\n");
             Patterns.Add(14, "Behavioral Pattern: Command\n");
             Patterns.Add(15, "Behavioral Pattern: Interpreter\n");
             Patterns.Add(16, "Behavioral Pattern: Iterator\n");
@@ -41,7 +44,7 @@ namespace Estudo_DesignPatterns.Other
             Patterns.Add(19, "Behavioral Pattern: Observer\n");
             Patterns.Add(20, "Behavioral Pattern: State\n");
             Patterns.Add(21, "Behavioral Pattern: Strategy\n");
-            Patterns.Add(22, "Behavioral Pattern: TemplateMethod\n");
+            Patterns.Add(22, "Behavioral Pattern: Template Method\n");
             Patterns.Add(23, "Behavioral Pattern: Visitor\n");
         }
     }
